@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e2eefd;
+    padding: 20px;
+    font-family: "Ubuntu";
+}
+
+header {
+    padding: 20px;
+    background-color: #4537c2;
+    color:white;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: "Kaushan Script";
+    font-size: 48px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.nav-tabs {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+  color: rgb(252, 232, 120);
+}
+
+p {
+    font-size: 16px;
+}
+
+main { 
+    margin-top:100px;
+}
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    font-weight: bold;
+    margin-right:5px;
+    border-bottom: solid black;
+}
+
+.subheading {
+    margin-right:5px;
+    border-bottom: solid black;
+    background-color:yellow;
+}
+
+.list {
+    font-size: 16px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.detail {
+    font-size: 16px;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+/*
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+*/
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-height: 90px;
+}
+
+@media screen and (max-width: 560px) {
+
+    main {
+      margin-top: 180px;
+    }
+  }
